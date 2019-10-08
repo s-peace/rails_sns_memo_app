@@ -1,0 +1,6 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/speace/.wget-hsts'. HSTS will be disabled.
+--2019-10-08 13:03:48--  ftp://https/:/raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml
+           => ‘ja.yml’
+Resolving https (https)... failed: Name or service not known.
+wget: unable to resolve host address ‘https’

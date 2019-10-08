@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title
+      | SnsMemoApp
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  body
+    .apt-title.navibar.navbar-expand-md.navbar-light
+      .navbar-brand sns_memo
+    .container
+      = yield
