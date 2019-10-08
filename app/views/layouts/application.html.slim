@@ -11,4 +11,6 @@ html
     .apt-title.navibar.navbar-expand-md.navbar-light
       .navbar-brand sns_memo
     .container
+      - if flash.notice.present?
+        .alert.alert-success= flash.notice
       = yield
