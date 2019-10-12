@@ -248,7 +248,7 @@ DEPENDENCIES
   rails (~> 5.2.3)
   rails_autolink
   rinku
-  rspec-rails
+  rspec-rails (~> 3.7)
   sass-rails (~> 5.0)
   selenium-webdriver
   slim-rails
