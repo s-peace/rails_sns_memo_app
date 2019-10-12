@@ -72,4 +72,7 @@ gem 'slim-rails'
 gem 'html2slim'
 
 #auto_link
-gem 'rails-autolink'
+gem 'rails_autolink'
+
+#rink
+gem 'rinku'
